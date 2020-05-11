@@ -6,7 +6,7 @@
   "author": "li.xiangyang",
   "license": "MIT",
   "scripts": {
-    "start":"node index.jss",
+    "start":"node index.js",
     "test":"echo 'this is test'"
   },
   "dependencies": {
