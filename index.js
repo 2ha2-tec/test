@@ -7,4 +7,8 @@ app.get('/', (req, res) => {
   res.send('index...');
 });
 
+app.get('/p', (req, res) => {
+  res.json(req.query);
+})
+
 app.listen(process.env.PORT || 3000);
