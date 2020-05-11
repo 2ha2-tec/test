@@ -1,0 +1,11 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:2ha2-tec/test.git",
+  "author": "li.xiangyang",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
