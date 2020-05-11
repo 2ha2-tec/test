@@ -1,9 +1,9 @@
 From node:latest as bd
-workdir /code
+WORKDIR /code
 COPY ./ /code
 RUN yarn
 
 From node:latest
-
+WORKDIR /code
 COPY --from=bd /code /code
 CMD yarn start
