@@ -5,6 +5,10 @@
   "repository": "git@github.com:2ha2-tec/test.git",
   "author": "li.xiangyang",
   "license": "MIT",
+  "scripts": {
+    "start":"node index.jss",
+    "test":"echo 'this is test'"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }
